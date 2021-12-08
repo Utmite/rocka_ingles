@@ -6,7 +6,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "reset-git": "git credential-manager delete https://github.com"
+    "reset-git": "git credential-manager delete https://github.com",
+    "submit-git": "git add . && git commit -m 'bot' && git push -u origin main",
+    "submit": "npm run build && git add dist && git commit -m 'bot' && git subtree push --prefix dist origin gh-pages"
+
   },
   "dependencies": {
     "core-js": "^3.6.5",
