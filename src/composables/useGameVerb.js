@@ -80,7 +80,7 @@ export default function setup() {
     } else {
       general.value = JSON.parse(lastWord); // LAST WORD in string to obj
 
-      console.log(general.value);
+      // console.log(general.value);
 
       selectedVerb.value = docs.verbs[
         general.value.mode.original

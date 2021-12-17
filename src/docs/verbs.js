@@ -1,4 +1,4 @@
-export default {
+const obj = {
   verbs: [
     [
       'Verb', 'Arise', 'Awake', 'Be, am, are, is', 'Bear', 'Beat',
@@ -78,4 +78,107 @@ export default {
       'Pisar', 'Entender', 'Sufrir', 'Emprender', 'llevar puesto', 'Despertarse', 'Tejer', 'Llorar', 'Mojar', 'Ganar', 'Enrollar', 'Retirarse', 'Torcer', 'Escribir',
     ],
   ],
+  words: {
+    the_clothing: [
+      [
+        'Word', 'Suit', 'Blouse', 'Jacket', 'Jeans', 'Pullover', 'Shirt', 'Skirt', 'Sweater', 'Trousers', 'T-shirt', 'Coat', 'Gabardine', 'Raincoat', 'Vest',
+        'Scarf', 'Gloves', 'Earmuffs', 'Sock', 'Tie', 'Cap', 'Hat', 'Belt', 'Shoes', 'Slippers', 'Boots', 'Sandals', 'Heels', 'Trainers', 'Sneakers',
+      ],
+      [
+        'Spanish', 'Traje', 'Blusa', 'Chaqueta', 'Pantalones vaqueros', 'Suéter', 'Camisa', 'Falda', 'Suéter', 'Pantalones', 'Camiseta', 'Abrigo', 'Gabarnina',
+        'Chubasquero', 'Chaleco', 'Bufanda', 'Guantes', 'Orejeras', 'Calcetines', 'Corbata', 'Gorra', 'Sombrero', 'Cinturon', 'Zapatos', 'Zapatilla de casa', 'Botas',
+        'Sandalias', 'Tacones', 'Zapatillas', 'Zapatillas',
+      ],
+    ],
+    the_parts_of_body: [
+      [
+        'Word', 'Eyes', 'Nose', 'Mouth', 'Teeth', 'Forehead', 'Neck', 'Face',
+        'Hand', 'Fingers', 'Arm', 'Elbow', 'Back', 'Hip', 'Waist', 'Leg', 'Feets', 'Ankle',
+        'Heart', 'Brain', 'Lungs', 'Stomach', 'Intestine', 'Appendix', 'Kidneys', 'Liver', 'Bones',
+        'Muscles', 'Skin', 'Heel', 'Ear', 'Tongue', 'Chin', 'throat',
+      ],
+      [
+        'Spanish', 'Ojos', 'Nariz', 'Boca', 'Dientes', 'Frente', 'Cuello', 'Rostro', 'Mano', 'Dedos',
+        'Brazo', 'Codo', 'Espalda', 'Cadera', 'Cintura', 'Pierna', 'Pies', 'Tobillo', 'Corazon', 'Cerebro', 'Pulmones',
+        'Intestino', 'Apendice', 'Riñones', 'Higado', 'Huesos', 'Musculos', 'Piel', 'Talon', 'Areja', 'Lengua',
+        'Menton', 'Garganta',
+
+      ],
+    ],
+    the_senses: [
+      ['Word', 'Hear', 'See', 'Smell', 'Taste', 'Touch', 'Think', 'Sight',
+
+      ],
+      ['Spanish', 'Oir', 'Ver', 'Oler', 'Sabor', 'Tacto', 'Pensar', 'Vision'],
+    ],
+    the_weather: [
+      ['Word',
+        'Hailstone',
+        'Snow',
+        'North',
+        'South',
+        'East',
+        'West',
+        'Foggy',
+        'Fog',
+        'Wind',
+        'Windy',
+        'Sunny',
+        'Sun',
+        'Cloudy',
+        'Cloud',
+        'Hot',
+        'Cold',
+        'Warm',
+        'Cool',
+        'Freezing',
+        'Boiling',
+        'Summer',
+        'Winter',
+        'Wet',
+        'Autumn',
+        'Spring',
+      ],
+      [
+        'Spanish',
+        'Granizo',
+        'Nieve',
+        'Norte',
+        'Sur',
+        'Este',
+        'Oeste',
+        'Nublado',
+        'Niebla',
+        'Viento',
+        'Ventoso',
+        'Soleado',
+        'Sol',
+        'Nublado',
+        'Nube',
+        'Caluroso',
+        'Frio',
+        'Calido',
+        'Fresco',
+        'Congelado',
+        'Hirviendo',
+        'Verano',
+        'Invierno',
+        'Humedo',
+        'Otoño',
+        'Primavera',
+      ],
+    ],
+    the_adjectives: [
+      [
+        'Word',
+
+      ],
+      [
+        'Spanish',
+      ],
+    ],
+  },
+
 };
+
+export default obj;

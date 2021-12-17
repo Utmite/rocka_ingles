@@ -28,6 +28,12 @@ export default {
   setup() {
     const general = inject('general');
 
+    const tmp = localStorage.getItem('general');
+
+    if (tmp !== null) {
+      general.value = JSON.parse(tmp);
+    }
+
     return { general };
   },
 };

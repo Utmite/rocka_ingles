@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint",
     "reset-git": "git credential-manager delete https://github.com",
     "save-git": "git add . && git commit -m 'bot' && git push -u origin main",
-    "submit-git": "npm run build && git add dist && git commit -m 'bot' && git subtree push --prefix dist origin gh-pages"
+    "submit-git": "npm run build && cd ./dist && git init && git add -A && git commit -m 'deplay' && git push -f https://github.com/Utmite/rocka_ingles.git master:gh-pages"
 
   },
   "dependencies": {
